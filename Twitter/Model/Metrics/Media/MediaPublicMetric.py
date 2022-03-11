@@ -17,18 +17,9 @@
 #   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION                          #
 #   WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                                          #
 # ############################################################################################################
-from typing import Dict
-
-from searchtweets import ResultStream, gen_request_parameters, load_credentials
+from dataclasses import dataclass
 
 
-if __name__ == '__main__':
-    credentials = load_credentials('./twitter_keys.yaml', 'twitter_api_credentials')
-
-    query = gen_request_parameters("snow", results_per_call=100)
-    rs = ResultStream(endpoint=credentials['endpoint'], request_parameters=query,
-                      bearer_token=credentials['bearer_token'], max_tweets=500, max_requests=2)
-
-    tweets = list(rs.stream())
-    print(tweets)
-    [print(tweet, '\n') for tweet in tweets[0:10]]
+@dataclass
+class MediaPublicMetric:
+    view_count: int

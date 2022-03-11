@@ -1,0 +1,46 @@
+version: "3.9"
+services:
+  cyberthreat_tweets_db:
+    build:
+      context: docker
+      dockerfile: Dockerfile.mongodb
+      args:
+        MONGO_DUMP_FILE: ${MONGO_DUMP_FILE}
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+    env_file:
+      - .env
+    volumes:
+      - type: volume
+        source: ${MONGO_DATA_VOLUME_NAME}
+        target: /data/db
+    ports:
+      - target: 27017
+        published: 27017
+        protocol: tcp
+        mode: host
+      - target: 27018
+        published: 27018
+        protocol: tcp
+        mode: host
+      - target: 8081
+        published: 8081
+        protocol: tcp
+        mode: host
+    networks:
+      dev_net:
+        ipv4_address: 172.28.1.10
+
+volumes:
+    cyberthreat_tweets_db:
+        driver: local
+
+networks:
+    dev_net:
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.28.1.0/28
+                  gateway: 172.28.1.1
