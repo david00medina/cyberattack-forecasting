@@ -1,0 +1,123 @@
+{
+  "data": {
+    "attachments": {},
+    "author_id": "1257058889373270022",
+    "conversation_id": "1501025774907924482",
+    "created_at": "2022-03-08T18:09:45.000Z",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "Joshjtherealtor",
+          "id": "887193699670798338"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1501258886354853893",
+    "in_reply_to_user_id": "887193699670798338",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1501194906894848005"
+      }
+    ],
+    "reply_settings": "everyone",
+    "source": "Twitter Web App",
+    "text": "@Joshjtherealtor It would appear so."
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2020-05-03T21:32:52.000Z",
+        "description": "“But a Constitution of Government once changed from Freedom, can never be restored. Liberty once lost is lost forever.”\n\nJohn Adams - 1775",
+        "id": "1257058889373270022",
+        "location": "USA",
+        "name": "FreedomBabe1",
+        "pinned_tweet_id": "1488602061570818051",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1348437798341255175/ojbShnw8_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 2091,
+          "following_count": 2843,
+          "tweet_count": 30461,
+          "listed_count": 0
+        },
+        "url": "",
+        "username": "babe_freedom",
+        "verified": false
+      },
+      {
+        "created_at": "2017-07-18T06:13:56.000Z",
+        "description": "",
+        "id": "887193699670798338",
+        "location": "Berks County, PA ",
+        "name": "J. J. Gable",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/887405860489703425/0nsk1Esb_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 44,
+          "following_count": 214,
+          "tweet_count": 92,
+          "listed_count": 0
+        },
+        "url": "",
+        "username": "Joshjtherealtor",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "attachments": {},
+        "author_id": "887193699670798338",
+        "conversation_id": "1501025774907924482",
+        "created_at": "2022-03-08T13:55:31.000Z",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 13,
+              "username": "babe_freedom",
+              "id": "1257058889373270022"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1501194906894848005",
+        "in_reply_to_user_id": "1257058889373270022",
+        "lang": "en",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1501025774907924482"
+          }
+        ],
+        "reply_settings": "everyone",
+        "source": "Twitter for iPhone",
+        "text": "@babe_freedom He’s a hack too"
+      }
+    ]
+  },
+  "matching_rules": [
+    {
+      "id": "1501258822886768646",
+      "tag": ""
+    }
+  ]
+}

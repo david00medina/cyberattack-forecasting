@@ -85,7 +85,7 @@ def snscrape_search(my_api, search_item, since='2020-01-01', until='2020-12-15',
     while i*100 < len(tweets_id):
         lookup_result = twitter.lookup_tweets_by_id_v2(
             ids=tweets_id[i*100:(i+1)*100],
-            save_json=False,
+            save_json=True,
             json_path=f'samples/search-tweet/search-tweets-debug-{now}.json'
         )
         lookup_tweets.append(lookup_result)

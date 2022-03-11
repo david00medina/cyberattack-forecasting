@@ -1,0 +1,3329 @@
+{
+  "data": [
+    {
+      "lang": "en",
+      "text": "RT @Nilosamurai: [Teamwork] is the fuel that allows common people to attain uncommon results.\n#MXS🤝#RBX\n🔥#RBXS🔥\n\nhttps://t.co/uv7B1lIiYK\n\n#…",
+      "conversation_id": "1500934472765747201",
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "1500897154579243011"
+        }
+      ],
+      "source": "Twitter for Android",
+      "reply_settings": "everyone",
+      "id": "1500934472765747201",
+      "created_at": "2022-03-07T20:40:38.000Z",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 94,
+            "end": 98,
+            "tag": "MXS"
+          },
+          {
+            "start": 99,
+            "end": 103,
+            "tag": "RBX"
+          },
+          {
+            "start": 105,
+            "end": 110,
+            "tag": "RBXS"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 3,
+            "end": 15,
+            "username": "Nilosamurai",
+            "id": "1468648749236899842"
+          }
+        ],
+        "urls": [
+          {
+            "start": 113,
+            "end": 136,
+            "url": "https://t.co/uv7B1lIiYK",
+            "expanded_url": "https://linktr.ee/RBXSamurai",
+            "display_url": "linktr.ee/RBXSamurai",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/news_img/1499054064176607232/XwczFuYJ?format=jpg&name=orig",
+                "width": 462,
+                "height": 462
+              },
+              {
+                "url": "https://pbs.twimg.com/news_img/1499054064176607232/XwczFuYJ?format=jpg&name=150x150",
+                "width": 150,
+                "height": 150
+              }
+            ],
+            "status": 200,
+            "title": "@RBXSamurai | Linktree",
+            "description": "$RBXS (RBXSamurai) cryptocurrency provides Marketing & Solidity services",
+            "unwound_url": "https://linktr.ee/RBXSamurai"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "1443305123879530506",
+      "public_metrics": {
+        "retweet_count": 8,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "en",
+      "text": "RT @bitgertPro: Bitgert has surpassed Polkadot &amp; Litecoin on Google Search!🔥🔥🚀🚀\n\n#Bitgertarmy #Bitgertcommunity #BRC20 #BriseExchange #Bris…",
+      "conversation_id": "1500934472446971904",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "46",
+            "name": "Brand Category",
+            "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+          },
+          "entity": {
+            "id": "781974596752842752",
+            "name": "Services"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10026378521",
+            "name": "Google "
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007351676301242369",
+            "name": "Litecoin cryptocurrency",
+            "description": "Litecoin Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "48",
+            "name": "Product",
+            "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+          },
+          "entity": {
+            "id": "1013834759431077889",
+            "name": "Google Search",
+            "description": "Google Search"
+          }
+        },
+        {
+          "domain": {
+            "id": "48",
+            "name": "Product",
+            "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+          },
+          "entity": {
+            "id": "1395474411180892160",
+            "name": "Google brand conversation"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        }
+      ],
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "1500601954506055681"
+        }
+      ],
+      "source": "Twitter for Android",
+      "reply_settings": "everyone",
+      "id": "1500934472446971904",
+      "created_at": "2022-03-07T20:40:38.000Z",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 85,
+            "end": 97,
+            "tag": "Bitgertarmy"
+          },
+          {
+            "start": 98,
+            "end": 115,
+            "tag": "Bitgertcommunity"
+          },
+          {
+            "start": 116,
+            "end": 122,
+            "tag": "BRC20"
+          },
+          {
+            "start": 123,
+            "end": 137,
+            "tag": "BriseExchange"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 3,
+            "end": 14,
+            "username": "bitgertPro",
+            "id": "1492214143012814850"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "1432458905267884032",
+      "public_metrics": {
+        "retweet_count": 179,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "tr",
+      "text": "RT @gemabi09: 1500 TL Değerinde Telefon Hediye Ediyoruz  🎁\n\n4 Gün Sonra Açıklanacak 💎\n\nŞartlar : \n\n- @Metateslaoffici Bu Hesabı Takip Etmek…",
+      "conversation_id": "1500934472384065544",
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "1500901662025728001"
+        }
+      ],
+      "source": "Twitter for Android",
+      "reply_settings": "everyone",
+      "id": "1500934472384065544",
+      "created_at": "2022-03-07T20:40:38.000Z",
+      "possibly_sensitive": false,
+      "author_id": "99540819",
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 12,
+            "username": "gemabi09",
+            "id": "1424826176762171398"
+          },
+          {
+            "start": 101,
+            "end": 117,
+            "username": "Metateslaoffici",
+            "id": "1494621313721323524"
+          }
+        ]
+      },
+      "public_metrics": {
+        "retweet_count": 457,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "en",
+      "text": "RT @MarcusConnorNH: 🎁GIVEAWAY!\nThis Tues 12noon ET ONYOURMIND drops @scarcedotcity\nCard 3 of series 2 — Bitcoin Coaster Cards\n\nI'll gift a…",
+      "conversation_id": "1500934471985553412",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        }
+      ],
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "1500933560957612041"
+        }
+      ],
+      "source": "Twitter for iPhone",
+      "reply_settings": "everyone",
+      "id": "1500934471985553412",
+      "created_at": "2022-03-07T20:40:38.000Z",
+      "possibly_sensitive": false,
+      "author_id": "972366775810711552",
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 18,
+            "username": "MarcusConnorNH",
+            "id": "2776898748"
+          },
+          {
+            "start": 68,
+            "end": 82,
+            "username": "scarcedotcity",
+            "id": "1122587002979930112"
+          }
+        ]
+      },
+      "public_metrics": {
+        "retweet_count": 9,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "en",
+      "text": "Every address that is sent too late, gets their #BTC immediately sent back!!! #BITCOIN #DEFI\n\nhttps://t.co/bxK8YMkJzv",
+      "conversation_id": "1500934471180165120",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "46",
+            "name": "Brand Category",
+            "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+          },
+          "entity": {
+            "id": "781974596794716162",
+            "name": "Financial services"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        }
+      ],
+      "source": "Twitter Web App",
+      "reply_settings": "everyone",
+      "id": "1500934471180165120",
+      "created_at": "2022-03-07T20:40:38.000Z",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 48,
+            "end": 52,
+            "tag": "BTC"
+          },
+          {
+            "start": 78,
+            "end": 86,
+            "tag": "BITCOIN"
+          },
+          {
+            "start": 87,
+            "end": 92,
+            "tag": "DEFI"
+          }
+        ],
+        "urls": [
+          {
+            "start": 94,
+            "end": 117,
+            "url": "https://t.co/bxK8YMkJzv",
+            "expanded_url": "http://musk-tesla-prize.com?267659260",
+            "display_url": "musk-tesla-prize.com/?267659260",
+            "status": 200,
+            "title": "BIG CRYPTO GIVEAWAY",
+            "description": "Click Here! to get 5,000 BTC! To participate,You can use any exchange-service or BTC wallet!",
+            "unwound_url": "https://musk-tesla-prize.com/?267659260"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "381954893",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "en",
+      "text": "RT @technoking23: Just sold my last $ETH bag to complete my full switch to $LUNA 🌖 ! 3 years ago I was all in #btc, 2 years ago got into $E…",
+      "conversation_id": "1500934470475603976",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "46",
+            "name": "Brand Category",
+            "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+          },
+          "entity": {
+            "id": "781974596794716162",
+            "name": "Financial services"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007361429752594432",
+            "name": "Ethereum cryptocurrency",
+            "description": "Ethereum Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        }
+      ],
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "1500836022938128390"
+        }
+      ],
+      "source": "Twitter for iPhone",
+      "reply_settings": "everyone",
+      "id": "1500934470475603976",
+      "created_at": "2022-03-07T20:40:38.000Z",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 110,
+            "end": 114,
+            "tag": "btc"
+          }
+        ],
+        "cashtags": [
+          {
+            "start": 36,
+            "end": 40,
+            "tag": "ETH"
+          },
+          {
+            "start": 75,
+            "end": 80,
+            "tag": "LUNA"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 3,
+            "end": 16,
+            "username": "technoking23",
+            "id": "2280429935"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "2873232960",
+      "public_metrics": {
+        "retweet_count": 53,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "en",
+      "text": "Join us by downloading this link and get BTC every day\nhttps://t.co/E5sJyPuKs3 https://t.co/ZaIPk2OO79",
+      "conversation_id": "1500934470446497792",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "46",
+            "name": "Brand Category",
+            "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+          },
+          "entity": {
+            "id": "781974596794716162",
+            "name": "Financial services"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        }
+      ],
+      "source": "Twitter Web App",
+      "reply_settings": "everyone",
+      "id": "1500934470446497792",
+      "created_at": "2022-03-07T20:40:38.000Z",
+      "attachments": {
+        "media_keys": [
+          "3_1500934456915668992"
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "604565321",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      },
+      "entities": {
+        "urls": [
+          {
+            "start": 55,
+            "end": 78,
+            "url": "https://t.co/E5sJyPuKs3",
+            "expanded_url": "https://cryptotabbrowser.com/en/26/31940008/",
+            "display_url": "cryptotabbrowser.com/en/26/31940008/",
+            "status": 200,
+            "title": "CryptoTab Browser - Lightweight, fast, and ready to mine!",
+            "description": "CryptoTab Browser is a special web browser with built-in mining features. Familiar Chrome user interface combined with extremely fast mining speed. Mine and browse at the same time!",
+            "unwound_url": "https://cryptotabbrowser.com/en/26/31940008/"
+          },
+          {
+            "start": 79,
+            "end": 102,
+            "url": "https://t.co/ZaIPk2OO79",
+            "expanded_url": "https://twitter.com/tsungchin/status/1500934470446497792/photo/1",
+            "display_url": "pic.twitter.com/ZaIPk2OO79"
+          }
+        ]
+      }
+    },
+    {
+      "lang": "en",
+      "text": "RT @MartiansVs: Win a FREE MvR NFT! 🔥\n\n✅ Follow @MartiansVs \n✅ RT This post\n✅ Tag 3 Friends.\n\nCloses in 12 hours. 🍀 \n\n#martiansvs #nftproje…",
+      "conversation_id": "1500934465610293263",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        }
+      ],
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "1500909147696545794"
+        }
+      ],
+      "source": "Twitter for Android",
+      "reply_settings": "everyone",
+      "id": "1500934465610293263",
+      "created_at": "2022-03-07T20:40:37.000Z",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 118,
+            "end": 129,
+            "tag": "martiansvs"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 3,
+            "end": 14,
+            "username": "MartiansVs",
+            "id": "1466088188007624709"
+          },
+          {
+            "start": 48,
+            "end": 59,
+            "username": "MartiansVs",
+            "id": "1466088188007624709"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "1374481929701969926",
+      "public_metrics": {
+        "retweet_count": 45,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "en",
+      "text": "RT @FordDerek_: Mooring guys! As usually, Drop your #x100Gem 💎\nIm Looking to Ape\n👇🏼👇🏼\n\n#bscgems #cryptocurrency  #avax #solana\n #btc\n #trx\n…",
+      "conversation_id": "1500934463140012035",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "46",
+            "name": "Brand Category",
+            "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+          },
+          "entity": {
+            "id": "781974596794716162",
+            "name": "Financial services"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007358586089979904",
+            "name": "TRON cryptocurrency",
+            "description": "TRON Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1468157909318045697",
+            "name": "Solana cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        }
+      ],
+      "referenced_tweets": [
+        {
+          "type": "retweeted",
+          "id": "1500780204964392960"
+        }
+      ],
+      "source": "Twitter for Android",
+      "reply_settings": "everyone",
+      "id": "1500934463140012035",
+      "created_at": "2022-03-07T20:40:36.000Z",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 52,
+            "end": 60,
+            "tag": "x100Gem"
+          },
+          {
+            "start": 87,
+            "end": 95,
+            "tag": "bscgems"
+          },
+          {
+            "start": 96,
+            "end": 111,
+            "tag": "cryptocurrency"
+          },
+          {
+            "start": 113,
+            "end": 118,
+            "tag": "avax"
+          },
+          {
+            "start": 119,
+            "end": 126,
+            "tag": "solana"
+          },
+          {
+            "start": 128,
+            "end": 132,
+            "tag": "btc"
+          },
+          {
+            "start": 134,
+            "end": 138,
+            "tag": "trx"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 3,
+            "end": 14,
+            "username": "FordDerek_",
+            "id": "392092895"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "1498330715233996803",
+      "public_metrics": {
+        "retweet_count": 693,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    },
+    {
+      "lang": "en",
+      "text": "@Bitvalley_aggle @aggle_io 🔥🔥🔥#AGGLE 🔥🔥🔥\n\nIts a Decentralized bookmaking and sportsbetting platform that launch q2 in #India and you can bet on your fav. Team.\n\n@aggle_io \n\n#bnb #cricket #NBA75 #football #1000xgem #BNB #BTC #Moonshot #ToTheMoon #altcoin #ALTSEASON https://t.co/7JFN2FZYMz",
+      "conversation_id": "1500792652022919168",
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10000607734",
+            "name": "NBA Basketball",
+            "description": "All the latest basketball action from the NBA."
+          }
+        },
+        {
+          "domain": {
+            "id": "11",
+            "name": "Sport",
+            "description": "Types of sports, like soccer and basketball"
+          },
+          "entity": {
+            "id": "706083902411055104",
+            "name": "Basketball"
+          }
+        },
+        {
+          "domain": {
+            "id": "11",
+            "name": "Sport",
+            "description": "Types of sports, like soccer and basketball"
+          },
+          "entity": {
+            "id": "897814293395103744",
+            "name": "Cricket"
+          }
+        },
+        {
+          "domain": {
+            "id": "12",
+            "name": "Sports Team",
+            "description": "A sports team organization, like Arsenal and the Boston Celtics"
+          },
+          "entity": {
+            "id": "897814278568161280",
+            "name": "India"
+          }
+        },
+        {
+          "domain": {
+            "id": "26",
+            "name": "Sports League",
+            "description": ""
+          },
+          "entity": {
+            "id": "706083889454813185",
+            "name": "NBA"
+          }
+        },
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "46",
+            "name": "Brand Category",
+            "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+          },
+          "entity": {
+            "id": "781974596794716162",
+            "name": "Financial services"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1304115130267963392",
+            "name": "Binance Coin cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "65",
+            "name": "Interests and Hobbies Vertical",
+            "description": "Top level interests and hobbies groupings, like Food or Travel"
+          },
+          "entity": {
+            "id": "847868745150119936",
+            "name": "Home & family",
+            "description": "Hobbies and interests"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "847869481888096256",
+            "name": "Gambling"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "67",
+            "name": "Interests and Hobbies",
+            "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+          },
+          "entity": {
+            "id": "1158813612409929728",
+            "name": "Sports betting",
+            "description": "Sports Betting"
+          }
+        }
+      ],
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1500933264285978627"
+        }
+      ],
+      "source": "Twitter for Android",
+      "reply_settings": "everyone",
+      "id": "1500934461961166851",
+      "created_at": "2022-03-07T20:40:36.000Z",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 30,
+            "end": 36,
+            "tag": "AGGLE"
+          },
+          {
+            "start": 118,
+            "end": 124,
+            "tag": "India"
+          },
+          {
+            "start": 173,
+            "end": 177,
+            "tag": "bnb"
+          },
+          {
+            "start": 178,
+            "end": 186,
+            "tag": "cricket"
+          },
+          {
+            "start": 187,
+            "end": 193,
+            "tag": "NBA75"
+          },
+          {
+            "start": 194,
+            "end": 203,
+            "tag": "football"
+          },
+          {
+            "start": 204,
+            "end": 213,
+            "tag": "1000xgem"
+          },
+          {
+            "start": 214,
+            "end": 218,
+            "tag": "BNB"
+          },
+          {
+            "start": 219,
+            "end": 223,
+            "tag": "BTC"
+          },
+          {
+            "start": 224,
+            "end": 233,
+            "tag": "Moonshot"
+          },
+          {
+            "start": 234,
+            "end": 244,
+            "tag": "ToTheMoon"
+          },
+          {
+            "start": 245,
+            "end": 253,
+            "tag": "altcoin"
+          },
+          {
+            "start": 254,
+            "end": 264,
+            "tag": "ALTSEASON"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 0,
+            "end": 16,
+            "username": "Bitvalley_aggle",
+            "id": "726438673"
+          },
+          {
+            "start": 17,
+            "end": 26,
+            "username": "aggle_io",
+            "id": "1440975251110776836"
+          },
+          {
+            "start": 161,
+            "end": 170,
+            "username": "aggle_io",
+            "id": "1440975251110776836"
+          }
+        ],
+        "urls": [
+          {
+            "start": 265,
+            "end": 288,
+            "url": "https://t.co/7JFN2FZYMz",
+            "expanded_url": "https://twitter.com/yilmaz19890789/status/1498960908541997058/photo/1",
+            "display_url": "pic.twitter.com/7JFN2FZYMz"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_1498960906520346624"
+        ]
+      },
+      "possibly_sensitive": false,
+      "author_id": "1454131602720702470",
+      "in_reply_to_user_id": "726438673",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      }
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "url": "https://t.co/DN2IHbetQ8",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1482724908216070145/tQoy0pPW_normal.jpg",
+        "public_metrics": {
+          "followers_count": 7251,
+          "following_count": 1072,
+          "tweet_count": 160479,
+          "listed_count": 19
+        },
+        "pinned_tweet_id": "1493135593446027266",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/DN2IHbetQ8",
+                "expanded_url": "https://linktr.ee/RBXSamurai",
+                "display_url": "linktr.ee/RBXSamurai"
+              }
+            ]
+          },
+          "description": {
+            "hashtags": [
+              {
+                "start": 105,
+                "end": 116,
+                "tag": "RBXSamurai"
+              }
+            ],
+            "mentions": [
+              {
+                "start": 93,
+                "end": 104,
+                "username": "RBXSamurai"
+              }
+            ],
+            "cashtags": [
+              {
+                "start": 25,
+                "end": 30,
+                "tag": "RBXS"
+              }
+            ]
+          }
+        },
+        "username": "Okami_mxsamurai",
+        "name": "Okami 🟣RBXS Samurai🟣",
+        "created_at": "2021-09-29T20:03:22.000Z",
+        "id": "1443305123879530506",
+        "protected": false,
+        "description": "🟣 Marketing is our art\n🟣 $RBXS Twitter shiller\n🟣 We market your blockchain projects\n🟣 Follow @RBXSamurai #RBXSamurai",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/jhi7Ip0VnV",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1482765185408458760/OQzG5fLY_normal.jpg",
+        "public_metrics": {
+          "followers_count": 135,
+          "following_count": 211,
+          "tweet_count": 2196,
+          "listed_count": 8
+        },
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/jhi7Ip0VnV",
+                "expanded_url": "http://linktr.ee/RBXSamurai",
+                "display_url": "linktr.ee/RBXSamurai"
+              }
+            ]
+          },
+          "description": {
+            "hashtags": [
+              {
+                "start": 101,
+                "end": 112,
+                "tag": "RBXSamurai"
+              }
+            ],
+            "mentions": [
+              {
+                "start": 89,
+                "end": 100,
+                "username": "RBXSamurai"
+              }
+            ],
+            "cashtags": [
+              {
+                "start": 20,
+                "end": 25,
+                "tag": "RBXS"
+              }
+            ]
+          }
+        },
+        "username": "Nilosamurai",
+        "name": "Nilo🟣SAMURAI🟣",
+        "created_at": "2021-12-08T18:28:57.000Z",
+        "id": "1468648749236899842",
+        "protected": false,
+        "description": "💎 Crypto Investor 💎 $RBXS twitter Shiller 💎 We market your Blockchain projects! 💎 Follow @RBXSamurai\n#RBXSamurai",
+        "verified": false
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1432461205910835200/msP_QKHn_normal.jpg",
+        "public_metrics": {
+          "followers_count": 24,
+          "following_count": 205,
+          "tweet_count": 214,
+          "listed_count": 3
+        },
+        "username": "MulliganWes",
+        "name": "Wes Mulligan",
+        "created_at": "2021-08-30T21:43:34.000Z",
+        "id": "1432458905267884032",
+        "protected": false,
+        "description": "",
+        "verified": false
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1493964398716727298/OYVNdUYJ_normal.jpg",
+        "public_metrics": {
+          "followers_count": 994,
+          "following_count": 366,
+          "tweet_count": 737,
+          "listed_count": 18
+        },
+        "pinned_tweet_id": "1495831641176092677",
+        "username": "bitgertPro",
+        "name": "Brise_bitgert",
+        "created_at": "2022-02-11T19:09:24.000Z",
+        "id": "1492214143012814850",
+        "protected": false,
+        "description": "Am a Bitgert Brise hodler. The abilities to find top preforming Coins with utilities",
+        "verified": false
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1494059493033975808/AJnauj0p_normal.jpg",
+        "public_metrics": {
+          "followers_count": 90,
+          "following_count": 399,
+          "tweet_count": 9747,
+          "listed_count": 0
+        },
+        "username": "bitalkac",
+        "name": "bitalkac",
+        "created_at": "2009-12-26T17:21:42.000Z",
+        "id": "99540819",
+        "protected": false,
+        "description": "bitalkac",
+        "verified": false,
+        "location": "turkiye"
+      },
+      {
+        "url": "https://t.co/15EUBvVvKE",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1433526069815128065/TWGWSa4W_normal.jpg",
+        "public_metrics": {
+          "followers_count": 12632,
+          "following_count": 363,
+          "tweet_count": 4579,
+          "listed_count": 43
+        },
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/15EUBvVvKE",
+                "expanded_url": "https://t.me/gemabi09",
+                "display_url": "t.me/gemabi09"
+              }
+            ]
+          },
+          "description": {
+            "hashtags": [
+              {
+                "start": 60,
+                "end": 68,
+                "tag": "altcoin"
+              },
+              {
+                "start": 69,
+                "end": 73,
+                "tag": "btc"
+              },
+              {
+                "start": 74,
+                "end": 79,
+                "tag": "coin"
+              }
+            ]
+          }
+        },
+        "username": "gemabi09",
+        "name": "Gem ABİ 💎",
+        "created_at": "2021-08-09T20:13:51.000Z",
+        "id": "1424826176762171398",
+        "protected": false,
+        "description": "Sayfamda Paylaşılan Gönderiler Yatırım Tavsiyesi Değildir ! #altcoin #btc #coin",
+        "verified": false
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1496583331173052421/EfVWXOQh_normal.jpg",
+        "public_metrics": {
+          "followers_count": 463,
+          "following_count": 3,
+          "tweet_count": 15,
+          "listed_count": 0
+        },
+        "pinned_tweet_id": "1500909003462823942",
+        "username": "Metateslaoffici",
+        "name": "Metatesla",
+        "created_at": "2022-02-18T10:35:12.000Z",
+        "id": "1494621313721323524",
+        "protected": false,
+        "description": "",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/JwLc7Dx79H",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1362927938010816513/WDLUTyBa_normal.jpg",
+        "public_metrics": {
+          "followers_count": 1358,
+          "following_count": 4981,
+          "tweet_count": 1421,
+          "listed_count": 11
+        },
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/JwLc7Dx79H",
+                "expanded_url": "https://linktr.ee/MattSpann",
+                "display_url": "linktr.ee/MattSpann"
+              }
+            ]
+          },
+          "description": {
+            "hashtags": [
+              {
+                "start": 38,
+                "end": 46,
+                "tag": "Bitcoin"
+              }
+            ]
+          }
+        },
+        "username": "MattSpann2",
+        "name": "Matt Spann",
+        "created_at": "2018-03-10T07:01:19.000Z",
+        "id": "972366775810711552",
+        "protected": false,
+        "description": "Freethinker. Cash App: $mattspann1024 #Bitcoin",
+        "verified": false,
+        "location": "North Carolina, USA"
+      },
+      {
+        "url": "https://t.co/xoi0rebMth",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1362876455152214017/fTC3BUK1_normal.jpg",
+        "public_metrics": {
+          "followers_count": 2742,
+          "following_count": 314,
+          "tweet_count": 907,
+          "listed_count": 51
+        },
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/xoi0rebMth",
+                "expanded_url": "https://BitcoinCoaster.com",
+                "display_url": "BitcoinCoaster.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "start": 101,
+                "end": 124,
+                "url": "https://t.co/ZHy0egjZE9",
+                "expanded_url": "https://dankset.io/by/Marcus-Connor",
+                "display_url": "dankset.io/by/Marcus-Conn…"
+              }
+            ],
+            "hashtags": [
+              {
+                "start": 11,
+                "end": 19,
+                "tag": "Bitcoin"
+              }
+            ],
+            "mentions": [
+              {
+                "start": 52,
+                "end": 67,
+                "username": "brainlesstales"
+              }
+            ]
+          }
+        },
+        "username": "MarcusConnorNH",
+        "name": "Marcus Connor",
+        "created_at": "2014-08-28T18:29:06.000Z",
+        "id": "2776898748",
+        "protected": false,
+        "description": "Creator of #Bitcoin Roller Coaster Guy🎢  Creator of @brainlesstales  Designer, Developer, and Artist https://t.co/ZHy0egjZE9",
+        "verified": false,
+        "location": "The Woods, NH"
+      },
+      {
+        "url": "https://t.co/DitpUCQc0y",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1399024932449828870/JKmiL33t_normal.jpg",
+        "public_metrics": {
+          "followers_count": 6218,
+          "following_count": 1031,
+          "tweet_count": 4792,
+          "listed_count": 94
+        },
+        "pinned_tweet_id": "1500571765629759489",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/DitpUCQc0y",
+                "expanded_url": "https://scarce.city/",
+                "display_url": "scarce.city"
+              }
+            ]
+          }
+        },
+        "username": "scarcedotcity",
+        "name": "Scarce.City",
+        "created_at": "2019-04-28T19:42:52.000Z",
+        "id": "1122587002979930112",
+        "protected": false,
+        "description": "⚡ FINE BITCOIN GOODS ⚡",
+        "verified": false,
+        "location": "Scarce City"
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/414814274016395265/iLJUn8s9_normal.jpeg",
+        "public_metrics": {
+          "followers_count": 4,
+          "following_count": 41,
+          "tweet_count": 13,
+          "listed_count": 0
+        },
+        "username": "tsalt91",
+        "name": "Alt teja",
+        "created_at": "2011-09-29T07:18:55.000Z",
+        "id": "381954893",
+        "protected": false,
+        "description": "",
+        "verified": false,
+        "location": "Guntur"
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1475096445325754368/Pk5qxpAC_normal.jpg",
+        "public_metrics": {
+          "followers_count": 6,
+          "following_count": 246,
+          "tweet_count": 175,
+          "listed_count": 0
+        },
+        "username": "KhalidntMbzuae",
+        "name": "Crypto Investor",
+        "created_at": "2014-10-23T12:39:36.000Z",
+        "id": "2873232960",
+        "protected": false,
+        "description": "UAE",
+        "verified": false
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1475292225332555783/ivgR-cYR_normal.jpg",
+        "public_metrics": {
+          "followers_count": 662,
+          "following_count": 2297,
+          "tweet_count": 3883,
+          "listed_count": 10
+        },
+        "entities": {
+          "description": {
+            "hashtags": [
+              {
+                "start": 0,
+                "end": 7,
+                "tag": "Crypto"
+              },
+              {
+                "start": 8,
+                "end": 19,
+                "tag": "RealEstate"
+              },
+              {
+                "start": 20,
+                "end": 33,
+                "tag": "Psychedelics"
+              }
+            ]
+          }
+        },
+        "username": "technoking23",
+        "name": "TechnoKing 23 🌖",
+        "created_at": "2014-01-14T02:17:03.000Z",
+        "id": "2280429935",
+        "protected": false,
+        "description": "#Crypto #RealEstate #Psychedelics",
+        "verified": false,
+        "location": "Metaverse"
+      },
+      {
+        "url": "https://t.co/SZs9vqVuVO",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1489287179402563584/jGacQ0sa_normal.jpg",
+        "public_metrics": {
+          "followers_count": 5,
+          "following_count": 31,
+          "tweet_count": 241,
+          "listed_count": 0
+        },
+        "pinned_tweet_id": "1489653246993911809",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/SZs9vqVuVO",
+                "expanded_url": "https://docs.google.com/spreadsheets/d/13oY0mEMir92Wqaoq5Y93jK1J_IQDvgoIMtbMF8812Oo/edit?usp=sharing",
+                "display_url": "docs.google.com/spreadsheets/d…"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "start": 22,
+                "end": 45,
+                "url": "https://t.co/3HVriHvEPO",
+                "expanded_url": "https://www.facebook.com/groups/1041613859752756/",
+                "display_url": "facebook.com/groups/1041613…"
+              }
+            ]
+          }
+        },
+        "username": "tsungchin",
+        "name": "tsungchin",
+        "created_at": "2012-06-10T14:37:57.000Z",
+        "id": "604565321",
+        "protected": false,
+        "description": "紀錄一些自己賺錢的方法\n\n歡迎加入一起討論\nhttps://t.co/3HVriHvEPO",
+        "verified": false
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1490081590554370052/hVjK_iuF_normal.jpg",
+        "public_metrics": {
+          "followers_count": 170,
+          "following_count": 421,
+          "tweet_count": 4473,
+          "listed_count": 4
+        },
+        "username": "CryptoBalraj",
+        "name": "CryptoBalraj",
+        "created_at": "2021-03-23T22:04:40.000Z",
+        "id": "1374481929701969926",
+        "protected": false,
+        "description": "cryptocurrency enthusiast",
+        "verified": false
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1484556619241381890/WUrBjiqb_normal.jpg",
+        "public_metrics": {
+          "followers_count": 7260,
+          "following_count": 275,
+          "tweet_count": 516,
+          "listed_count": 20
+        },
+        "pinned_tweet_id": "1500159712423288834",
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "start": 53,
+                "end": 76,
+                "url": "https://t.co/ZRVwK29xjQ",
+                "expanded_url": "http://discord.gg/Martiansvs",
+                "display_url": "discord.gg/Martiansvs"
+              },
+              {
+                "start": 105,
+                "end": 128,
+                "url": "https://t.co/Nntt99vZY8",
+                "expanded_url": "http://linktr.ee/martiansvs",
+                "display_url": "linktr.ee/martiansvs"
+              }
+            ]
+          }
+        },
+        "username": "MartiansVs",
+        "name": "Martians VS Rednecks",
+        "created_at": "2021-12-01T16:54:15.000Z",
+        "id": "1466088188007624709",
+        "protected": false,
+        "description": "Martians March Forth March 4th\n\nJoin the community:  https://t.co/ZRVwK29xjQ\nFind all our channels here: https://t.co/Nntt99vZY8",
+        "verified": false,
+        "location": "Planet Earth"
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1498331323307814916/QZW8cp67_normal.jpg",
+        "public_metrics": {
+          "followers_count": 49,
+          "following_count": 814,
+          "tweet_count": 2286,
+          "listed_count": 0
+        },
+        "pinned_tweet_id": "1498333582276071424",
+        "username": "rywins07",
+        "name": "rylee♡ | ia",
+        "created_at": "2022-02-28T16:14:26.000Z",
+        "id": "1498330715233996803",
+        "protected": false,
+        "description": "my account @.lhs_ryleee & @.ryleee_07 got suspended. Not a multi, please don't reroll.",
+        "verified": false,
+        "location": "don't rt my rt's"
+      },
+      {
+        "url": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1493652882205249539/ilNjXQFq_normal.jpg",
+        "public_metrics": {
+          "followers_count": 413800,
+          "following_count": 1807,
+          "tweet_count": 2044,
+          "listed_count": 413
+        },
+        "pinned_tweet_id": "1500897757820641280",
+        "entities": {
+          "description": {
+            "hashtags": [
+              {
+                "start": 57,
+                "end": 61,
+                "tag": "BNB"
+              },
+              {
+                "start": 62,
+                "end": 66,
+                "tag": "BTC"
+              },
+              {
+                "start": 67,
+                "end": 71,
+                "tag": "ETH"
+              },
+              {
+                "start": 72,
+                "end": 79,
+                "tag": "solana"
+              },
+              {
+                "start": 80,
+                "end": 84,
+                "tag": "NFT"
+              },
+              {
+                "start": 85,
+                "end": 91,
+                "tag": "CYSHI"
+              },
+              {
+                "start": 92,
+                "end": 107,
+                "tag": "cryptocurrency"
+              }
+            ],
+            "mentions": [
+              {
+                "start": 112,
+                "end": 124,
+                "username": "imfordderek"
+              }
+            ]
+          }
+        },
+        "username": "FordDerek_",
+        "name": "Derek Ford 💎",
+        "created_at": "2011-10-16T15:00:16.000Z",
+        "id": "392092895",
+        "protected": false,
+        "description": "NOT ANY OTHER. Crypto Investor /// MARKETING 📩/// DYOR!🚀 #BNB #BTC #ETH #solana #NFT #CYSHI #cryptocurrency TG: @imfordderek",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/NOA03ncy1v",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1498028723630710790/ntr25xvI_normal.jpg",
+        "public_metrics": {
+          "followers_count": 108,
+          "following_count": 247,
+          "tweet_count": 3797,
+          "listed_count": 18
+        },
+        "pinned_tweet_id": "1500344105439744001",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/NOA03ncy1v",
+                "expanded_url": "https://t.me/aggle_io",
+                "display_url": "t.me/aggle_io"
+              }
+            ]
+          },
+          "description": {
+            "hashtags": [
+              {
+                "start": 0,
+                "end": 4,
+                "tag": "BTC"
+              },
+              {
+                "start": 6,
+                "end": 12,
+                "tag": "AGGLE"
+              },
+              {
+                "start": 14,
+                "end": 21,
+                "tag": "CHEEMS"
+              },
+              {
+                "start": 22,
+                "end": 31,
+                "tag": "ETHEREUM"
+              },
+              {
+                "start": 32,
+                "end": 41,
+                "tag": "1000XGEM"
+              }
+            ]
+          }
+        },
+        "username": "yilmaz19890789",
+        "name": "YLⓂ️Z 💎 Ⓜ️Ⓜ️XXII 🔶️",
+        "created_at": "2021-10-29T17:03:21.000Z",
+        "id": "1454131602720702470",
+        "protected": false,
+        "description": "#BTC  #AGGLE  #CHEEMS #ETHEREUM\n#1000XGEM",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/Pd4hA39jmh",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1489623488025432064/uYSySxBq_normal.jpg",
+        "public_metrics": {
+          "followers_count": 75,
+          "following_count": 164,
+          "tweet_count": 309,
+          "listed_count": 4
+        },
+        "pinned_tweet_id": "1496217496441008142",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/Pd4hA39jmh",
+                "expanded_url": "https://t.me/aggle_io",
+                "display_url": "t.me/aggle_io"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "start": 74,
+                "end": 97,
+                "url": "https://t.co/Pd4hA39jmh",
+                "expanded_url": "https://t.me/aggle_io",
+                "display_url": "t.me/aggle_io"
+              },
+              {
+                "start": 98,
+                "end": 121,
+                "url": "https://t.co/YbMFcrod6D",
+                "expanded_url": "https://t.me/BitValleyOfficial",
+                "display_url": "t.me/BitValleyOffic…"
+              }
+            ]
+          }
+        },
+        "username": "Bitvalley_aggle",
+        "name": "AGGLE BITVALLEY",
+        "created_at": "2012-07-30T16:59:39.000Z",
+        "id": "726438673",
+        "protected": false,
+        "description": "Unofficial. Buy and hold bitvalley and aggle!! Crypto artist. NFT artist.\nhttps://t.co/Pd4hA39jmh\nhttps://t.co/YbMFcrod6D",
+        "verified": false
+      },
+      {
+        "url": "https://t.co/YkPV59Jobv",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1441145980330577920/6R1NUbkA_normal.jpg",
+        "public_metrics": {
+          "followers_count": 2524,
+          "following_count": 38,
+          "tweet_count": 745,
+          "listed_count": 3
+        },
+        "pinned_tweet_id": "1500064203977146375",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/YkPV59Jobv",
+                "expanded_url": "https://www.aggle.io/links",
+                "display_url": "aggle.io/links"
+              }
+            ]
+          },
+          "description": {
+            "hashtags": [
+              {
+                "start": 103,
+                "end": 109,
+                "tag": "aggle"
+              },
+              {
+                "start": 110,
+                "end": 120,
+                "tag": "agglearmy"
+              }
+            ]
+          }
+        },
+        "username": "aggle_io",
+        "name": "aggle.io",
+        "created_at": "2021-09-23T09:44:17.000Z",
+        "id": "1440975251110776836",
+        "protected": false,
+        "description": "Crypto Revolution in the sporting industry. \nUse your knowledge and the blockchain to your advantage.\n\n#aggle #agglearmy",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "lang": "en",
+        "text": "[Teamwork] is the fuel that allows common people to attain uncommon results.\n#MXS🤝#RBX\n🔥#RBXS🔥\n\nhttps://t.co/uv7B1lIiYK\n\n#BNB #BTC \n#RBX\n#RBXtoken  \n#RBXSamurai\n#RBXS https://t.co/wprWv7Pu7p",
+        "conversation_id": "1500897154579243011",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596794716162",
+              "name": "Financial services"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007360414114435072",
+              "name": "Bitcoin cryptocurrency",
+              "description": "Bitcoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1304115130267963392",
+              "name": "Binance Coin cryptocurrency"
+            }
+          }
+        ],
+        "source": "Twitter for Android",
+        "reply_settings": "everyone",
+        "id": "1500897154579243011",
+        "created_at": "2022-03-07T18:12:21.000Z",
+        "entities": {
+          "hashtags": [
+            {
+              "start": 77,
+              "end": 81,
+              "tag": "MXS"
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "tag": "RBX"
+            },
+            {
+              "start": 88,
+              "end": 93,
+              "tag": "RBXS"
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "tag": "BNB"
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "tag": "BTC"
+            },
+            {
+              "start": 132,
+              "end": 136,
+              "tag": "RBX"
+            },
+            {
+              "start": 137,
+              "end": 146,
+              "tag": "RBXtoken"
+            },
+            {
+              "start": 149,
+              "end": 160,
+              "tag": "RBXSamurai"
+            },
+            {
+              "start": 161,
+              "end": 166,
+              "tag": "RBXS"
+            }
+          ],
+          "urls": [
+            {
+              "start": 96,
+              "end": 119,
+              "url": "https://t.co/uv7B1lIiYK",
+              "expanded_url": "https://linktr.ee/RBXSamurai",
+              "display_url": "linktr.ee/RBXSamurai",
+              "images": [
+                {
+                  "url": "https://pbs.twimg.com/news_img/1499054064176607232/XwczFuYJ?format=jpg&name=orig",
+                  "width": 462,
+                  "height": 462
+                },
+                {
+                  "url": "https://pbs.twimg.com/news_img/1499054064176607232/XwczFuYJ?format=jpg&name=150x150",
+                  "width": 150,
+                  "height": 150
+                }
+              ],
+              "status": 200,
+              "title": "@RBXSamurai | Linktree",
+              "description": "$RBXS (RBXSamurai) cryptocurrency provides Marketing & Solidity services",
+              "unwound_url": "https://linktr.ee/RBXSamurai"
+            },
+            {
+              "start": 167,
+              "end": 190,
+              "url": "https://t.co/wprWv7Pu7p",
+              "expanded_url": "https://twitter.com/Nilosamurai/status/1500897154579243011/photo/1",
+              "display_url": "pic.twitter.com/wprWv7Pu7p"
+            }
+          ]
+        },
+        "attachments": {
+          "media_keys": [
+            "3_1500897149218967568"
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "1468648749236899842",
+        "public_metrics": {
+          "retweet_count": 8,
+          "reply_count": 0,
+          "like_count": 12,
+          "quote_count": 0
+        }
+      },
+      {
+        "lang": "en",
+        "text": "Bitgert has surpassed Polkadot &amp; Litecoin on Google Search!🔥🔥🚀🚀\n\n#Bitgertarmy #Bitgertcommunity #BRC20 #BriseExchange #BriseWallet #BTC #BNB #Binance #Ethereum #ADA #Bitgert #CryptoNews #Brise #HoubiGlobal https://t.co/i9TvUqad2Z",
+        "conversation_id": "1500601954506055681",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596752842752",
+              "name": "Services"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596794716162",
+              "name": "Financial services"
+            }
+          },
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "10026378521",
+              "name": "Google "
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007351676301242369",
+              "name": "Litecoin cryptocurrency",
+              "description": "Litecoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007356280296488961",
+              "name": "Ada cryptocurrency",
+              "description": "Ada Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007360414114435072",
+              "name": "Bitcoin cryptocurrency",
+              "description": "Bitcoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007361429752594432",
+              "name": "Ethereum cryptocurrency",
+              "description": "Ethereum Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1304115130267963392",
+              "name": "Binance Coin cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "1372588659346612225",
+              "name": "Binance"
+            }
+          },
+          {
+            "domain": {
+              "id": "48",
+              "name": "Product",
+              "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+            },
+            "entity": {
+              "id": "1013834759431077889",
+              "name": "Google Search",
+              "description": "Google Search"
+            }
+          },
+          {
+            "domain": {
+              "id": "48",
+              "name": "Product",
+              "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+            },
+            "entity": {
+              "id": "1395474411180892160",
+              "name": "Google brand conversation"
+            }
+          },
+          {
+            "domain": {
+              "id": "65",
+              "name": "Interests and Hobbies Vertical",
+              "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "913142676819648512",
+              "name": "Cryptocurrencies",
+              "description": "Cryptocurrency"
+            }
+          }
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 45,
+              "end": 57,
+              "probability": 0.6831,
+              "type": "Product",
+              "normalized_text": "Google Search"
+            }
+          ],
+          "hashtags": [
+            {
+              "start": 69,
+              "end": 81,
+              "tag": "Bitgertarmy"
+            },
+            {
+              "start": 82,
+              "end": 99,
+              "tag": "Bitgertcommunity"
+            },
+            {
+              "start": 100,
+              "end": 106,
+              "tag": "BRC20"
+            },
+            {
+              "start": 107,
+              "end": 121,
+              "tag": "BriseExchange"
+            },
+            {
+              "start": 122,
+              "end": 134,
+              "tag": "BriseWallet"
+            },
+            {
+              "start": 135,
+              "end": 139,
+              "tag": "BTC"
+            },
+            {
+              "start": 140,
+              "end": 144,
+              "tag": "BNB"
+            },
+            {
+              "start": 145,
+              "end": 153,
+              "tag": "Binance"
+            },
+            {
+              "start": 154,
+              "end": 163,
+              "tag": "Ethereum"
+            },
+            {
+              "start": 164,
+              "end": 168,
+              "tag": "ADA"
+            },
+            {
+              "start": 169,
+              "end": 177,
+              "tag": "Bitgert"
+            },
+            {
+              "start": 178,
+              "end": 189,
+              "tag": "CryptoNews"
+            },
+            {
+              "start": 190,
+              "end": 196,
+              "tag": "Brise"
+            },
+            {
+              "start": 197,
+              "end": 209,
+              "tag": "HoubiGlobal"
+            }
+          ],
+          "urls": [
+            {
+              "start": 210,
+              "end": 233,
+              "url": "https://t.co/i9TvUqad2Z",
+              "expanded_url": "https://twitter.com/bitgertPro/status/1500601954506055681/photo/1",
+              "display_url": "pic.twitter.com/i9TvUqad2Z"
+            }
+          ]
+        },
+        "source": "Twitter for Android",
+        "reply_settings": "everyone",
+        "id": "1500601954506055681",
+        "created_at": "2022-03-06T22:39:20.000Z",
+        "attachments": {
+          "media_keys": [
+            "3_1500601952308191235"
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "1492214143012814850",
+        "public_metrics": {
+          "retweet_count": 179,
+          "reply_count": 100,
+          "like_count": 390,
+          "quote_count": 5
+        }
+      },
+      {
+        "lang": "tr",
+        "text": "1500 TL Değerinde Telefon Hediye Ediyoruz  🎁\n\n4 Gün Sonra Açıklanacak 💎\n\nŞartlar : \n\n- @Metateslaoffici Bu Hesabı Takip Etmek \n\n- Bu Gönderiyi Beğenmek \n- Rt Yapmak \n-3 Arkadaş Etiketlemek \n\n#Shiba #dogecoin #BNB #btc #ETH #AVAX #SOL #Solana #ADA #BabyDoge #doge #Metaverse https://t.co/gE3gOHYma7",
+        "conversation_id": "1500901662025728001",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596794716162",
+              "name": "Financial services"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007356280296488961",
+              "name": "Ada cryptocurrency",
+              "description": "Ada Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007360414114435072",
+              "name": "Bitcoin cryptocurrency",
+              "description": "Bitcoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007361429752594432",
+              "name": "Ethereum cryptocurrency",
+              "description": "Ethereum Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1139229372198469633",
+              "name": "Dogecoin cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1304115130267963392",
+              "name": "Binance Coin cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "1448236149676261380",
+              "name": "Shiba Inu cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1468157909318045697",
+              "name": "Solana cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "65",
+              "name": "Interests and Hobbies Vertical",
+              "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+              "id": "848920371311001600",
+              "name": "Technology",
+              "description": "Technology and computing"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "913142676819648512",
+              "name": "Cryptocurrencies",
+              "description": "Cryptocurrency"
+            }
+          }
+        ],
+        "source": "Twitter for iPhone",
+        "reply_settings": "everyone",
+        "id": "1500901662025728001",
+        "created_at": "2022-03-07T18:30:16.000Z",
+        "entities": {
+          "hashtags": [
+            {
+              "start": 191,
+              "end": 197,
+              "tag": "Shiba"
+            },
+            {
+              "start": 198,
+              "end": 207,
+              "tag": "dogecoin"
+            },
+            {
+              "start": 208,
+              "end": 212,
+              "tag": "BNB"
+            },
+            {
+              "start": 213,
+              "end": 217,
+              "tag": "btc"
+            },
+            {
+              "start": 218,
+              "end": 222,
+              "tag": "ETH"
+            },
+            {
+              "start": 223,
+              "end": 228,
+              "tag": "AVAX"
+            },
+            {
+              "start": 229,
+              "end": 233,
+              "tag": "SOL"
+            },
+            {
+              "start": 234,
+              "end": 241,
+              "tag": "Solana"
+            },
+            {
+              "start": 242,
+              "end": 246,
+              "tag": "ADA"
+            },
+            {
+              "start": 247,
+              "end": 256,
+              "tag": "BabyDoge"
+            },
+            {
+              "start": 257,
+              "end": 262,
+              "tag": "doge"
+            },
+            {
+              "start": 263,
+              "end": 273,
+              "tag": "Metaverse"
+            }
+          ],
+          "mentions": [
+            {
+              "start": 87,
+              "end": 103,
+              "username": "Metateslaoffici",
+              "id": "1494621313721323524"
+            }
+          ],
+          "urls": [
+            {
+              "start": 274,
+              "end": 297,
+              "url": "https://t.co/gE3gOHYma7",
+              "expanded_url": "https://twitter.com/gemabi09/status/1500901662025728001/photo/1",
+              "display_url": "pic.twitter.com/gE3gOHYma7"
+            },
+            {
+              "start": 274,
+              "end": 297,
+              "url": "https://t.co/gE3gOHYma7",
+              "expanded_url": "https://twitter.com/gemabi09/status/1500901662025728001/photo/1",
+              "display_url": "pic.twitter.com/gE3gOHYma7"
+            }
+          ]
+        },
+        "attachments": {
+          "media_keys": [
+            "3_1500901636994215937",
+            "3_1500901636964769796"
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "1424826176762171398",
+        "public_metrics": {
+          "retweet_count": 457,
+          "reply_count": 488,
+          "like_count": 474,
+          "quote_count": 4
+        }
+      },
+      {
+        "lang": "en",
+        "text": "🎁GIVEAWAY!\nThis Tues 12noon ET ONYOURMIND drops @scarcedotcity\nCard 3 of series 2 — Bitcoin Coaster Cards\n\nI'll gift a free COASTERMINER &amp; ORANGECORN to 2 random people that:\n• Follow me\n• Retweet this\n\nMust have Counterparty compatible BTC address. Ends 3/8/22 11am ET https://t.co/XAUxBlklmY",
+        "conversation_id": "1500933560957612041",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596794716162",
+              "name": "Financial services"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007360414114435072",
+              "name": "Bitcoin cryptocurrency",
+              "description": "Bitcoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "913142676819648512",
+              "name": "Cryptocurrencies",
+              "description": "Cryptocurrency"
+            }
+          }
+        ],
+        "source": "Twitter Web App",
+        "reply_settings": "everyone",
+        "id": "1500933560957612041",
+        "created_at": "2022-03-07T20:37:01.000Z",
+        "attachments": {
+          "media_keys": [
+            "3_1500932609072939011",
+            "3_1500932609077133315",
+            "3_1500932609098059777"
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "2776898748",
+        "entities": {
+          "mentions": [
+            {
+              "start": 48,
+              "end": 62,
+              "username": "scarcedotcity",
+              "id": "1122587002979930112"
+            }
+          ],
+          "urls": [
+            {
+              "start": 274,
+              "end": 297,
+              "url": "https://t.co/XAUxBlklmY",
+              "expanded_url": "https://twitter.com/MarcusConnorNH/status/1500933560957612041/photo/1",
+              "display_url": "pic.twitter.com/XAUxBlklmY"
+            },
+            {
+              "start": 274,
+              "end": 297,
+              "url": "https://t.co/XAUxBlklmY",
+              "expanded_url": "https://twitter.com/MarcusConnorNH/status/1500933560957612041/photo/1",
+              "display_url": "pic.twitter.com/XAUxBlklmY"
+            },
+            {
+              "start": 274,
+              "end": 297,
+              "url": "https://t.co/XAUxBlklmY",
+              "expanded_url": "https://twitter.com/MarcusConnorNH/status/1500933560957612041/photo/1",
+              "display_url": "pic.twitter.com/XAUxBlklmY"
+            }
+          ]
+        },
+        "public_metrics": {
+          "retweet_count": 9,
+          "reply_count": 3,
+          "like_count": 9,
+          "quote_count": 0
+        }
+      },
+      {
+        "lang": "en",
+        "text": "Just sold my last $ETH bag to complete my full switch to $LUNA 🌖 ! 3 years ago I was all in #btc, 2 years ago got into $ETH and after 6 months swapped all my #Btc into $ETH, last September digged into $Terra $LUNA and by October I switched 68% of my $ETh to $Luna. #Lunatico 💯",
+        "conversation_id": "1500836022938128390",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596794716162",
+              "name": "Financial services"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007360414114435072",
+              "name": "Bitcoin cryptocurrency",
+              "description": "Bitcoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007361429752594432",
+              "name": "Ethereum cryptocurrency",
+              "description": "Ethereum Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "913142676819648512",
+              "name": "Cryptocurrencies",
+              "description": "Cryptocurrency"
+            }
+          }
+        ],
+        "source": "Twitter for iPhone",
+        "reply_settings": "everyone",
+        "id": "1500836022938128390",
+        "created_at": "2022-03-07T14:09:26.000Z",
+        "entities": {
+          "hashtags": [
+            {
+              "start": 92,
+              "end": 96,
+              "tag": "btc"
+            },
+            {
+              "start": 158,
+              "end": 162,
+              "tag": "Btc"
+            },
+            {
+              "start": 265,
+              "end": 274,
+              "tag": "Lunatico"
+            }
+          ],
+          "cashtags": [
+            {
+              "start": 18,
+              "end": 22,
+              "tag": "ETH"
+            },
+            {
+              "start": 57,
+              "end": 62,
+              "tag": "LUNA"
+            },
+            {
+              "start": 119,
+              "end": 123,
+              "tag": "ETH"
+            },
+            {
+              "start": 168,
+              "end": 172,
+              "tag": "ETH"
+            },
+            {
+              "start": 201,
+              "end": 207,
+              "tag": "Terra"
+            },
+            {
+              "start": 208,
+              "end": 213,
+              "tag": "LUNA"
+            },
+            {
+              "start": 250,
+              "end": 254,
+              "tag": "ETh"
+            },
+            {
+              "start": 258,
+              "end": 263,
+              "tag": "Luna"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "2280429935",
+        "public_metrics": {
+          "retweet_count": 53,
+          "reply_count": 61,
+          "like_count": 689,
+          "quote_count": 9
+        }
+      },
+      {
+        "lang": "en",
+        "text": "Win a FREE MvR NFT! 🔥\n\n✅ Follow @MartiansVs \n✅ RT This post\n✅ Tag 3 Friends.\n\nCloses in 12 hours. 🍀 \n\n#martiansvs #nftproject #nftcommunity #nft #nfts #nftartist #eth #btc https://t.co/gxBpMlD5xp",
+        "conversation_id": "1500909147696545794",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596794716162",
+              "name": "Financial services"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007360414114435072",
+              "name": "Bitcoin cryptocurrency",
+              "description": "Bitcoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007361429752594432",
+              "name": "Ethereum cryptocurrency",
+              "description": "Ethereum Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "913142676819648512",
+              "name": "Cryptocurrencies",
+              "description": "Cryptocurrency"
+            }
+          }
+        ],
+        "source": "TweetDeck",
+        "reply_settings": "everyone",
+        "id": "1500909147696545794",
+        "created_at": "2022-03-07T19:00:01.000Z",
+        "entities": {
+          "hashtags": [
+            {
+              "start": 102,
+              "end": 113,
+              "tag": "martiansvs"
+            },
+            {
+              "start": 114,
+              "end": 125,
+              "tag": "nftproject"
+            },
+            {
+              "start": 126,
+              "end": 139,
+              "tag": "nftcommunity"
+            },
+            {
+              "start": 140,
+              "end": 144,
+              "tag": "nft"
+            },
+            {
+              "start": 145,
+              "end": 150,
+              "tag": "nfts"
+            },
+            {
+              "start": 151,
+              "end": 161,
+              "tag": "nftartist"
+            },
+            {
+              "start": 162,
+              "end": 166,
+              "tag": "eth"
+            },
+            {
+              "start": 167,
+              "end": 171,
+              "tag": "btc"
+            }
+          ],
+          "mentions": [
+            {
+              "start": 32,
+              "end": 43,
+              "username": "MartiansVs",
+              "id": "1466088188007624709"
+            }
+          ],
+          "urls": [
+            {
+              "start": 172,
+              "end": 195,
+              "url": "https://t.co/gxBpMlD5xp",
+              "expanded_url": "https://twitter.com/MartiansVs/status/1500909147696545794/photo/1",
+              "display_url": "pic.twitter.com/gxBpMlD5xp"
+            }
+          ]
+        },
+        "attachments": {
+          "media_keys": [
+            "3_1500897537229836293"
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "1466088188007624709",
+        "public_metrics": {
+          "retweet_count": 45,
+          "reply_count": 41,
+          "like_count": 47,
+          "quote_count": 9
+        }
+      },
+      {
+        "lang": "en",
+        "text": "Mooring guys! As usually, Drop your #x100Gem 💎\nIm Looking to Ape\n👇🏼👇🏼\n\n#bscgems #cryptocurrency  #avax #solana\\xa0 #btc\\xa0 #trx\\xa0 #kishu #babydoge #raca #GHCArmy\n#x100Gems #GEM #CryptoCurrency #DYOR  #cryptocurrency  #altcoin  #Ethereum  #Binance\\xa0\\xa0  #Metaverse\\xa0 #NFTs #TRX\\xa0\\xa0  #ETH",
+        "conversation_id": "1500780204964392960",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "46",
+              "name": "Brand Category",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "781974596794716162",
+              "name": "Financial services"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007358586089979904",
+              "name": "TRON cryptocurrency",
+              "description": "TRON Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007360414114435072",
+              "name": "Bitcoin cryptocurrency",
+              "description": "Bitcoin Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1007361429752594432",
+              "name": "Ethereum cryptocurrency",
+              "description": "Ethereum Cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "1372588659346612225",
+              "name": "Binance"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "1468157909318045697",
+              "name": "Solana cryptocurrency"
+            }
+          },
+          {
+            "domain": {
+              "id": "65",
+              "name": "Interests and Hobbies Vertical",
+              "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "65",
+              "name": "Interests and Hobbies Vertical",
+              "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+              "id": "848920371311001600",
+              "name": "Technology",
+              "description": "Technology and computing"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "913142676819648512",
+              "name": "Cryptocurrencies",
+              "description": "Cryptocurrency"
+            }
+          }
+        ],
+        "source": "Twitter for iPhone",
+        "reply_settings": "everyone",
+        "id": "1500780204964392960",
+        "created_at": "2022-03-07T10:27:38.000Z",
+        "entities": {
+          "hashtags": [
+            {
+              "start": 36,
+              "end": 44,
+              "tag": "x100Gem"
+            },
+            {
+              "start": 71,
+              "end": 79,
+              "tag": "bscgems"
+            },
+            {
+              "start": 80,
+              "end": 95,
+              "tag": "cryptocurrency"
+            },
+            {
+              "start": 97,
+              "end": 102,
+              "tag": "avax"
+            },
+            {
+              "start": 103,
+              "end": 110,
+              "tag": "solana"
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "tag": "btc"
+            },
+            {
+              "start": 118,
+              "end": 122,
+              "tag": "trx"
+            },
+            {
+              "start": 124,
+              "end": 130,
+              "tag": "kishu"
+            },
+            {
+              "start": 131,
+              "end": 140,
+              "tag": "babydoge"
+            },
+            {
+              "start": 141,
+              "end": 146,
+              "tag": "raca"
+            },
+            {
+              "start": 147,
+              "end": 155,
+              "tag": "GHCArmy"
+            },
+            {
+              "start": 156,
+              "end": 165,
+              "tag": "x100Gems"
+            },
+            {
+              "start": 166,
+              "end": 170,
+              "tag": "GEM"
+            },
+            {
+              "start": 171,
+              "end": 186,
+              "tag": "CryptoCurrency"
+            },
+            {
+              "start": 187,
+              "end": 192,
+              "tag": "DYOR"
+            },
+            {
+              "start": 194,
+              "end": 209,
+              "tag": "cryptocurrency"
+            },
+            {
+              "start": 211,
+              "end": 219,
+              "tag": "altcoin"
+            },
+            {
+              "start": 221,
+              "end": 230,
+              "tag": "Ethereum"
+            },
+            {
+              "start": 232,
+              "end": 240,
+              "tag": "Binance"
+            },
+            {
+              "start": 244,
+              "end": 254,
+              "tag": "Metaverse"
+            },
+            {
+              "start": 256,
+              "end": 261,
+              "tag": "NFTs"
+            },
+            {
+              "start": 262,
+              "end": 266,
+              "tag": "TRX"
+            },
+            {
+              "start": 270,
+              "end": 274,
+              "tag": "ETH"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "392092895",
+        "public_metrics": {
+          "retweet_count": 693,
+          "reply_count": 129,
+          "like_count": 706,
+          "quote_count": 1
+        }
+      },
+      {
+        "lang": "en",
+        "text": "@aggle_io GREAT AGGLE PROJECT 🔝🔝🔝🔝🔝🔝🔝🔝🔝🔝\n#SPORTSBETTING #SportyBet #aggle #agglearmy #India #hindi #elonmusk",
+        "conversation_id": "1500792652022919168",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "65",
+              "name": "Interests and Hobbies Vertical",
+              "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+              "id": "847868745150119936",
+              "name": "Home & family",
+              "description": "Hobbies and interests"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "847869481888096256",
+              "name": "Gambling"
+            }
+          },
+          {
+            "domain": {
+              "id": "67",
+              "name": "Interests and Hobbies",
+              "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+            },
+            "entity": {
+              "id": "1158813612409929728",
+              "name": "Sports betting",
+              "description": "Sports Betting"
+            }
+          },
+          {
+            "domain": {
+              "id": "10",
+              "name": "Person",
+              "description": "Named people in the world like Nelson Mandela"
+            },
+            "entity": {
+              "id": "808713037230157824",
+              "name": "Elon Musk",
+              "description": "Elon Musk"
+            }
+          },
+          {
+            "domain": {
+              "id": "65",
+              "name": "Interests and Hobbies Vertical",
+              "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+              "id": "781974596148793345",
+              "name": "Business & finance"
+            }
+          },
+          {
+            "domain": {
+              "id": "66",
+              "name": "Interests and Hobbies Category",
+              "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+              "id": "857878777191211008",
+              "name": "Leadership",
+              "description": "Leadership"
+            }
+          },
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "857879456773357569",
+              "name": "Technology",
+              "description": "Technology"
+            }
+          }
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1500792652022919168"
+          }
+        ],
+        "source": "Twitter Web App",
+        "reply_settings": "everyone",
+        "id": "1500933264285978627",
+        "created_at": "2022-03-07T20:35:50.000Z",
+        "entities": {
+          "hashtags": [
+            {
+              "start": 41,
+              "end": 55,
+              "tag": "SPORTSBETTING"
+            },
+            {
+              "start": 56,
+              "end": 66,
+              "tag": "SportyBet"
+            },
+            {
+              "start": 67,
+              "end": 73,
+              "tag": "aggle"
+            },
+            {
+              "start": 74,
+              "end": 84,
+              "tag": "agglearmy"
+            },
+            {
+              "start": 85,
+              "end": 91,
+              "tag": "India"
+            },
+            {
+              "start": 92,
+              "end": 98,
+              "tag": "hindi"
+            },
+            {
+              "start": 99,
+              "end": 108,
+              "tag": "elonmusk"
+            }
+          ],
+          "mentions": [
+            {
+              "start": 0,
+              "end": 9,
+              "username": "aggle_io",
+              "id": "1440975251110776836"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "author_id": "726438673",
+        "in_reply_to_user_id": "1440975251110776836",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0
+        }
+      }
+    ],
+    "media": [
+      {
+        "height": 250,
+        "type": "photo",
+        "media_key": "3_1500934456915668992",
+        "url": "https://pbs.twimg.com/media/FNRj76-aMAAb5uU.png",
+        "width": 512
+      },
+      {
+        "height": 1066,
+        "type": "photo",
+        "media_key": "3_1498960906520346624",
+        "url": "https://pbs.twimg.com/media/FM1hAK1XwAAk5gp.jpg",
+        "width": 920
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "1500934472765747201",
+    "oldest_id": "1500934461961166851",
+    "result_count": 10,
+    "next_token": "b26v89c19zqg8o3fpyql95g0y9cm5wha8yh8szeel664d"
+  }
+}
