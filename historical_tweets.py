@@ -24,6 +24,7 @@ from pprint import pprint
 
 import snscrape.modules.twitter as sntwitter
 import tweepy
+import yaml
 from pymongo import MongoClient
 
 from Model.MongoDB.MongoTweet import MongoTweet
@@ -55,7 +56,8 @@ def get_credentials(json_file):
     return my_api
 
 
-def snscrape_search(my_api, search_item, since='2020-01-01', until='2020-12-15', count=100):
+def snscrape_search(my_api, search_item, since='2020-01-01', until='2020-12-15', count=100, file_credentials=None,
+                    twitter_credential_key=None, mongo_credential_key=None):
     """
         Searchs the item in tweets and returns a Pandas DataFrame.
 
@@ -77,7 +79,7 @@ def snscrape_search(my_api, search_item, since='2020-01-01', until='2020-12-15',
         tweets_id.append(tweet.id)
 
     twitter = Twitter()
-    twitter.auth(Setting.OAUTH_v2)
+    twitter.auth(Setting.OAUTH_v2, file_credentials=file_credentials, credential_key=twitter_credential_key)
     now = datetime.now().strftime('%Y-%m-%dT%H-%M-%S.%fZ')
 
     lookup_tweets = []
@@ -92,10 +94,8 @@ def snscrape_search(my_api, search_item, since='2020-01-01', until='2020-12-15',
         i += 1
     pprint(lookup_tweets)
 
-    user = os.environ.get("MONGO_USER")
-    password = os.environ.get("MONGO_PASSWORD")
-    host = os.environ.get("MONGO_HOST")
-    port = os.environ.get("MONGO_PORT")
+    host, password, port, user = load_mongo_credentials(file_credentials=file_credentials,
+                                                        credential_key=mongo_credential_key)
 
     client = MongoClient(f"mongodb://{user}:{password}@{host}:{port}")
     db = client.threat
@@ -117,8 +117,30 @@ def snscrape_search(my_api, search_item, since='2020-01-01', until='2020-12-15',
     return lookup_tweets
 
 
+def load_mongo_credentials(file_credentials=None, credential_key=None):
+    if file_credentials and credential_key:
+        with open(file_credentials) as stream:
+            try:
+                credentials = yaml.safe_load(stream)[credential_key]
+                user = credentials['user']
+                password = credentials['password']
+                host = credentials['host']
+                port = credentials['port']
+            except yaml.YAMLError as e:
+                print(e)
+    else:
+        user = os.environ.get("MONGO_USER")
+        password = os.environ.get("MONGO_PASSWORD")
+        host = os.environ.get("MONGO_HOST")
+        port = os.environ.get("MONGO_PORT")
+
+    return host, password, port, user
+
+
 if __name__ == '__main__':
-    json_file = 'twitter_keys.json'
+    json_file = 'credentials.json'
     my_api = get_credentials(json_file)
     tweets = snscrape_search(my_api=my_api, search_item="@TheAnonMovement -filter:retweets'", since='2016-01-01',
-                             until='2016-12-15', count=200)
+                             until='2016-12-15', count=200, file_credentials='credentials.yaml',
+                             twitter_credential_key='twitter_api_credentials',
+                             mongo_credential_key='mongodb_credentials')

@@ -17,7 +17,7 @@
 #   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION                          #
 #   WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                                          #
 # ############################################################################################################
-
+import yaml
 from requests import Response, Session
 from requests.auth import HTTPBasicAuth
 from requests_oauthlib import OAuth1
@@ -38,21 +38,33 @@ class Twitter:
         self.__BASE_URL = "https://api.twitter.com"
 
     def auth(self, mode=Setting.OAUTH_v1, api_key=None, api_secret_key=None, bearer_token=None, access_token=None,
-             access_token_secret=None, file_credentials=None):
-        if api_key is None:
-            api_key = os.environ.get("TWITTER_API_KEY")
+             access_token_secret=None, file_credentials=None, credential_key=None):
+        if file_credentials and credential_key:
+            with open(file_credentials, "r") as stream:
+                try:
+                    credentials = yaml.safe_load(stream)[credential_key]
+                    api_key = credentials['consumer_key']
+                    api_secret_key = credentials['consumer_secret']
+                    bearer_token = credentials['bearer_token']
+                    access_token = credentials['access_token']
+                    access_token_secret = credentials['access_token_secret']
+                except yaml.YAMLError as e:
+                    print(e)
+        else:
+            if api_key is None:
+                api_key = os.environ.get("TWITTER_API_KEY")
 
-        if api_secret_key is None:
-            api_secret_key = os.environ.get("TWITTER_API_SECRET_KEY")
+            if api_secret_key is None:
+                api_secret_key = os.environ.get("TWITTER_API_SECRET_KEY")
 
-        if bearer_token is None:
-            bearer_token = os.environ.get("TWITTER_BEARER_TOKEN")
+            if bearer_token is None:
+                bearer_token = os.environ.get("TWITTER_BEARER_TOKEN")
 
-        if access_token is None:
-            access_token = os.environ.get("TWITTER_ACCESS_TOKEN")
+            if access_token is None:
+                access_token = os.environ.get("TWITTER_ACCESS_TOKEN")
 
-        if access_token_secret is None:
-            access_token_secret = os.environ.get("TWITTER_ACCESS_TOKEN_SECRET")
+            if access_token_secret is None:
+                access_token_secret = os.environ.get("TWITTER_ACCESS_TOKEN_SECRET")
 
         if mode == Setting.OAUTH_v1:
             self.__session.auth = OAuth1(api_key, api_secret_key, access_token, access_token_secret)

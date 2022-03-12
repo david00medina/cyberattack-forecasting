@@ -228,6 +228,6 @@ modules.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm+all
 
-twitter_keys.*
+credentials.yaml
 ./**/*.env
 docker/docker-entrypoint-initdb.d/mongo/threat/**/*

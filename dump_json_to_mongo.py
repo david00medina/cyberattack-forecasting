@@ -22,6 +22,7 @@ import json
 import os
 from typing import Union, Type, List
 
+import yaml
 from pymongo import MongoClient
 
 from Model.MongoDB.MongoTweet import MongoTweet
@@ -61,14 +62,32 @@ def tweet_parser_from_folder(path_pattern: str = '',
     return tweet_list
 
 
+def load_mongo_credentials(file_credentials=None, credential_key=None):
+    if file_credentials and credential_key:
+        with open(file_credentials) as stream:
+            try:
+                credentials = yaml.safe_load(stream)[credential_key]
+                user = credentials['user']
+                password = credentials['password']
+                host = credentials['host']
+                port = credentials['port']
+            except yaml.YAMLError as e:
+                print(e)
+    else:
+        user = os.environ.get("MONGO_USER")
+        password = os.environ.get("MONGO_PASSWORD")
+        host = os.environ.get("MONGO_HOST")
+        port = os.environ.get("MONGO_PORT")
+
+    return host, password, port, user
+
+
 if __name__ == '__main__':
     tweet_list = tweet_parser_from_folder('./samples/filtered-stream-tweet/*.json', response_class=FilteredStreamTweet)
     tweet_list.extend(tweet_parser_from_folder('./samples/search-tweet/*.json'))
 
-    user = os.environ.get("MONGO_USER")
-    password = os.environ.get("MONGO_PASSWORD")
-    host = os.environ.get("MONGO_HOST")
-    port = os.environ.get("MONGO_PORT")
+    host, password, port, user = load_mongo_credentials(file_credentials='credentials.yaml',
+                                                        credential_key='mongodb_credentials')
 
     client = MongoClient(f"mongodb://{user}:{password}@{host}:{port}")
     db = client.threat
