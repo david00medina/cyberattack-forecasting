@@ -2,4 +2,4 @@
 FROM mongo:latest
 
 ARG MONGO_DUMP_FILE
-#COPY $MONGO_DUMP_FILE /docker-entrypoint-initdb.d
+COPY $MONGO_DUMP_FILE /docker-entrypoint-initdb.d
