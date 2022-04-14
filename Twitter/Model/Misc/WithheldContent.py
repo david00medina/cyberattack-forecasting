@@ -23,5 +23,6 @@ from dataclasses import dataclass, field
 
 @dataclass
 class WithheldContent:
-    copyright: str
+    copyright: str = field(default=None)
+    scope: str = field(default=None)
     country_codes: list[str] = field(default_factory=list)

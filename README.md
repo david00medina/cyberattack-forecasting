@@ -7,7 +7,7 @@ To be able to run the project please proceed with following steps:
 ```bash
 MONGO_INITDB_ROOT_USERNAME={{USERNAME}}
 MONGO_INITDB_ROOT_PASSWORD={{PASSWORD}}
-MONGO_INITDB_DATABASE=cyberthreat
+MONGO_INITDB_DATABASE=csv
 MONGO_DUMP_FILE=./docker-entrypoint-initdb.d/mongo/
 MONGO_DATA_VOLUME_NAME={{VOLUME_NAME}}
 ```
@@ -17,8 +17,9 @@ a Mongo database:
 docker-compose up -d --build
 ```
 
-3. Generate credentials for MongoDB and Twitter clients:
-    - With a yaml file containing the following structure:
+3. Generate credentials for MongoDB and Twitter clients.
+
+With a yaml file containing the following structure:
 ```yaml
 [TWITTER_CREDENTIALS_KEYS]:
   consumer_key: <API_KEY>
@@ -33,8 +34,8 @@ docker-compose up -d --build
   host: <MONGO_HOST>
   port: <MONGO_PORT>
 ```
-    
-- With environment variables:
+With environment variables:
+
 ```bash
 # Twitter credentials
 TWITTER_API_KEY=<API_KEY>
@@ -49,3 +50,5 @@ MONGO_PASSWORD=<MONGO_PASSWORD>
 MONGO_HOST=<MONGO_HOST>
 MONGO_PORT=<MONGO_PORT>
 ```
+   
+

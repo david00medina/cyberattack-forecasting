@@ -18,4 +18,4 @@
 #  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                                           #
 ##############################################################################################################
 
-mongorestore -d cyberthreat /docker-entrypoint-initdb.d/cyberthreat
+mongorestore -d $MONGO_INITDB_DATABASE /docker-entrypoint-initdb.d/$MONGO_INITDB_DATABASE

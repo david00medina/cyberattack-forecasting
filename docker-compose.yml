@@ -9,12 +9,12 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
-      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+      MONGO_INITDB_DATABASE: ${MONGO_TWEETS_DATABASE}
     env_file:
       - .env
     volumes:
       - type: volume
-        source: ${MONGO_DATA_VOLUME_NAME}
+        source: cyberthreat_tweets
         target: /data/db
     ports:
       - target: 27017
@@ -31,16 +31,142 @@ services:
         mode: host
     networks:
       dev_net:
-        ipv4_address: 172.28.1.10
+        ipv4_address: 172.0.0.2
+
+  cyberthreat_forums_db:
+    build:
+      context: docker
+      dockerfile: Dockerfile.mysql
+      args:
+        MYSQL_DUMP_FILE: ${MYSQL_DUMP_AZSECURE_FILE}
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    env_file:
+      - .env
+    volumes:
+      - type: volume
+        source: threat_mysql
+        target: /var/lib/mysql
+    ports:
+      - target: 3306
+        published: 3306
+        protocol: tcp
+        mode: host
+    networks:
+      dev_net:
+        ipv4_address: 172.0.0.3
+
+  cyberthreat_dw:
+    build:
+      context: docker
+      dockerfile: Dockerfile.mysql
+      args:
+        MYSQL_DUMP_FILE: ${MYSQL_DUMP_DW_FILE}
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    env_file:
+      - .env
+    volumes:
+      - type: volume
+        source: dw_mysql
+        target: /var/lib/mysql
+    ports:
+      - target: 3306
+        published: 3307
+        protocol: tcp
+        mode: host
+    networks:
+      dev_net:
+        ipv4_address: 172.0.0.4
+
+  cyberthreat_tweets_paper_db:
+    build:
+      context: docker
+      dockerfile: Dockerfile.mongodb
+      args:
+        MONGO_DUMP_FILE: ${MONGO_DUMP_FILE}
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_TWEETS_PAPER_DATABASE}
+    env_file:
+      - .env
+    volumes:
+      - type: volume
+        source: cyberthreat_tweets_paper
+        target: /data/db
+    ports:
+      - target: 27017
+        published: 27016
+        protocol: tcp
+        mode: host
+      - target: 27018
+        published: 27019
+        protocol: tcp
+        mode: host
+      - target: 8081
+        published: 8082
+        protocol: tcp
+        mode: host
+    networks:
+      dev_net:
+        ipv4_address: 172.0.0.5
+
+  cyberthreat_cyberbulling_tweets_paper_db:
+    build:
+      context: docker
+      dockerfile: Dockerfile.mongodb
+      args:
+        MONGO_DUMP_FILE: ${MONGO_DUMP_FILE}
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_CYBERBULLING_TWEETS_PAPER_DATABASE}
+    env_file:
+      - .env
+    volumes:
+      - type: volume
+        source: cyberbulling_tweets_paper
+        target: /data/db
+    ports:
+      - target: 27017
+        published: 27015
+        protocol: tcp
+        mode: host
+      - target: 27018
+        published: 27020
+        protocol: tcp
+        mode: host
+      - target: 8081
+        published: 8083
+        protocol: tcp
+        mode: host
+    networks:
+      dev_net:
+        ipv4_address: 172.0.0.6
 
 volumes:
-    cyberthreat_tweets_db:
+    cyberthreat_tweets:
         driver: local
+    threat_mysql:
+        driver: local
+    dw_mysql:
+        driver: local
+    cyberthreat_tweets_paper:
+        driver: local
+    cyberbulling_tweets_paper:
+      driver: local
 
 networks:
     dev_net:
         ipam:
             driver: default
             config:
-                - subnet: 172.28.1.0/28
-                  gateway: 172.28.1.1
+                - subnet: 172.0.0.0/28
+                  gateway: 172.0.0.1

@@ -30,3 +30,4 @@ class Error:
     resource_type: str = field(default=None)
     type: str = field(default=None)
     section: str = field(default=None)
+    field: str = field(default=None)
