@@ -55,7 +55,7 @@ if __name__ == '__main__':
     now = datetime.now().strftime('%Y-%m-%dT%H-%M-%S.%fZ')
 
     lookup_tweets = twitter.lookup_tweets_by_id_v2(
-        ids=[1501656941461975045, 1501656863015854080],
+        ids=[1035317883067281408],
         save_json=True,
         json_path=f'samples/search-tweet/search-tweets-debug-{now}.json'
     )
