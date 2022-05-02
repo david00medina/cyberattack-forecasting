@@ -21,6 +21,8 @@ import copy
 import os
 import csv
 import string
+from itertools import repeat
+from multiprocessing.pool import ThreadPool as Pool
 import pycountry
 import langcodes
 import sqlalchemy
@@ -162,19 +164,23 @@ def plot_wordcloud(posts: str, stopwords: list = [], max_words: int = 50, use_st
         stopwords.extend(sw.words('english'))
 
     stopwords = set(stopwords)
-    wordcloud = WordCloud(max_words=max_words, stopwords=stopwords, background_color='white').generate(posts)
-    plt.figure()
+    wordcloud = WordCloud(width=800, height=800, max_words=max_words, stopwords=stopwords, background_color='black')\
+        .generate(posts)
+    plt.figure(figsize=(8, 8), facecolor=None)
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis("off")
+    plt.tight_layout(pad=0)
     plt.show()
 
 
-def word_frequency(posts: pd.DataFrame, post_column_name: str, stopwords: list = [], max_top_rank: int = 50) -> Dict:
-    posts = ". ".join(posts.drop_duplicates()[post_column_name].fillna('').tolist())
-    posts = get_text_preprocessor().pre_process_doc(posts)
-    sw = set(STOPWORDS)
-    sw.update(stopwords)
-    return Counter(WordCloud(max_words=max_top_rank, stopwords=sw, background_color='white').process_text(posts)).most_common(max_top_rank)
+def word_frequency(posts: pd.DataFrame, post_column_name: str, max_top_rank: int = 50) -> Counter:
+    post_corpus = " ".join(posts[post_column_name].fillna('').tolist()).split(" ")
+    post_corpus = " ".join(post_corpus)
+    # post_corpus = get_text_preprocessor(normalize=[], annotate={}, fix_html=False, pipeline=[]).pre_process_doc(post_corpus)
+    # sw = set(STOPWORDS)
+    # sw.update(stopwords)
+    return Counter(WordCloud(max_words=max_top_rank, background_color='white', collocations=False)
+                   .process_text(post_corpus)).most_common(max_top_rank)
 
 
 def load_emojis_emoticon(csv_file: str, emo_key: str, emo_value: str) -> Dict:
@@ -194,6 +200,7 @@ def load_emojis_emoticon(csv_file: str, emo_key: str, emo_value: str) -> Dict:
 
         emojis[key] = value
 
+    csv_file.close()
     return emojis
 
 
@@ -243,7 +250,7 @@ def remove_posts_with_pattern(df: pd.DataFrame, column_name: str, pattern: str, 
 
 
 def replace_post_patterns(df: pd.DataFrame, column_name: str, patterns: str | List, value: str) -> pd.DataFrame:
-    return df[column_name].replace(to_replace=patterns, value=value)
+    return df[column_name].replace(to_replace=patterns, value=value, inplace=True)
 
 
 def remove_duplicate_empty_posts(df: pd.DataFrame, column_name: str) -> pd.DataFrame:
@@ -257,7 +264,8 @@ def generate_vocabulary(token_db: List, vocab_file: str = 'vocab.txt', extra_tok
     vocab = set(vocab_count.keys())
 
     content = "\n".join(vocab).encode('utf-8')
-    open(vocab_file, 'wb').write(content)
+    with open(vocab_file, 'wb') as file:
+        file.write(content)
 
     return vocab_count
 
@@ -326,12 +334,16 @@ def get_preprocessed_post(tokenized_posts: List) -> List:
     return posts
 
 
-def preprocess_posts(posts: pd.DataFrame, column_name: str, tokenize: bool = True,
+def lemmatize_tokens(tokens: List) -> List:
+    return [wordnet_lemmatization(lemmatized_post) for lemmatized_post in tokens]
+
+
+def preprocess_posts(posts: pd.DataFrame, column_name: str, tokenize: bool = True, limit_vocab_size: bool = False,
                      max_tokens: int = 512, case: bool = False, patterns: List = [], token_with_padding: bool = True,
-                     remove_duplicates_fill_empty: bool = True, remove_stopwords: bool = True, min_token_length: int = 1,
+                     remove_duplicates_empty: bool = True, remove_stopwords: bool = True, min_token_length: int = 1,
                      remove_punctuation: bool = True, replace_patterns: List = [], replace_values: List = [],
                      lemmatize: bool = True, extra_tokens: List = ['[CLS]', '[SEP]', '[MASK]', '[UNK]'],
-                     vocab_file: str = 'vocab.txt', tokens_to_ids: bool = True) -> Dict:
+                     vocab_file: str = 'vocab.txt', tokens_to_ids: bool = True, annotate: Dict = {}) -> Dict:
     result = {}
     if len(patterns) > 0:
         for pattern in patterns:
@@ -339,16 +351,18 @@ def preprocess_posts(posts: pd.DataFrame, column_name: str, tokenize: bool = Tru
 
     if len(replace_patterns) > 0 and len(replace_values) > 0:
         for pattern, value in zip(replace_patterns, replace_values):
-            posts[column_name] = replace_post_patterns(posts, column_name, pattern, value)
+            posts[column_name].replace(to_replace=patterns, value=value, inplace=True)
 
-    if remove_duplicates_fill_empty:
-        posts = remove_duplicate_empty_posts(posts, column_name).tolist()
+    if remove_duplicates_empty:
+        posts.drop_duplicates(inplace=True)
+        posts.dropna(inplace=True)
+        post_corpus = posts['text'].tolist()
 
     if tokenize:
-        tokenized_posts = list(get_text_preprocessor().pre_process_docs(posts))
+        tokenized_posts = list(get_text_preprocessor(annotate=annotate).pre_process_docs(post_corpus))
 
         if lemmatize:
-            tokenized_posts = [wordnet_lemmatization(lemmatized_post) for lemmatized_post in tokenized_posts]
+            tokenized_posts = lemmatize_tokens(tokenized_posts)
 
         if remove_stopwords or remove_punctuation or min_token_length > 0:
             tokenized_posts = remove_non_semantic_tokens(tokenized_posts, remove_stopwords,
@@ -506,7 +520,7 @@ def fetch_or_insert_datetime(db: MySQLConnection, date_time_dict: Dict) -> Dict:
         values = [[date, time] for date, time in zip(current_stage_ids['date'], current_stage_ids['time'])]
         col_names = ['date_id', 'time_id']
         rows = fetch_in_batches(db, table_name, values, cols=col_names)
-        insert_missing_records(db, table_name, col_names, rows, values, [1,2])
+        insert_missing_records(db, table_name, col_names, rows, values, [1, 2])
         found_ids = fetch_in_batches(db, table_name, values, ['id'], cols=col_names)
         next_stage_ids[dimension_name] = [object_id[0] for object_id in found_ids]
 
@@ -569,8 +583,8 @@ def preload_labels(conn: sqlalchemy.engine.Engine):
     label_dimension_df = pd.read_sql('SELECT * FROM label_dimension', con=conn)
 
     if len(label_dimension_df) == 0:
-        label_values = ['no-threat', 'phishing', 'cyberbulling', 'spam', 'threat', 'hack', 'pornography',
-                  'exclusion-racism', 'leaks', 'other-threat', 'dont-know']
+        label_values = ['no-threat', 'phishing', 'cyberbullying', 'spam', 'hack', 'pornography',
+                        'other-threat', 'dont-know']
         label_dimension_df['label'] = label_values
 
         label_dimension_df.drop(columns=['id'], inplace=True)
@@ -613,11 +627,11 @@ def preload_dw():
     return conn
 
 
-def az_secure_database() -> pd.DataFrame:
+def az_secure_database(remove_patterns: bool = False) -> pd.DataFrame:
     host, password, port, user = load_db_credentials(file_credentials='credentials.yaml',
-                                                                     credential_key='mysql_azsecure_credentials')
+                                                     credential_key='mysql_azsecure_credentials')
     db = connection.MySQLConnection(user=user, password=password, host=host, port=port,
-                                           database='cyberthreat')
+                                    database='cyberthreat')
     tables = fetch_all_mysql_tablenames(db)['table_name'].tolist()
     df_db = pd.DataFrame(columns=['text', 'created_at', 'date_fmt'])
     for table_name in tables:
@@ -638,21 +652,39 @@ def az_secure_database() -> pd.DataFrame:
             post_date_col = 'postdatetime'
 
         df_dataset = load_mysql_in_dataframe(db, table_name)
-        titles = df_dataset[['threadTitle', post_date_col]].rename(columns={'threadTitle': 'text', 'postDate': 'created_at'})
-        posts = df_dataset[['flatContent', post_date_col]].rename(columns={'flatContent': 'text', 'postDate': 'created_at'})
-        df_db = pd.concat([df_db, titles, posts], ignore_index=True).drop_duplicates(subset=['text'])\
-            .dropna(subset=['text', 'created_at'])
+        titles = df_dataset[['threadTitle', post_date_col]].rename(columns={
+            'threadTitle': 'text',
+            'postDate': 'created_at',
+            'postdatetime': 'created_at'
+        })
+        posts = df_dataset[['flatContent', post_date_col]].rename(columns={
+            'flatContent': 'text',
+            'postDate': 'created_at',
+            'postdatetime': 'created_at'
+        })
+
+        df_db = pd.concat([df_db, titles, posts], ignore_index=True)
+        df_db.drop_duplicates(subset=['text'], inplace=True)
+        df_db.dropna(subset=['text', 'created_at'], inplace=True)
         df_db = df_db.assign(date_fmt=date_fmt)
 
     idx_list = [f'AZSECURE_FORUM_{seq_no}' for seq_no in range(len(df_db))]
     df_db['id'] = idx_list
+
+    if remove_patterns:
+        patterns = ['((?:(?<=[^a-zA-Z0-9\'’])|(?<=^)|(?<=y)|(?<=you))(t+[hanksxz]{4,}|x+|t+)( *[y]+[ou]*)*)+(?=\\W+|$)']
+        result = preprocess_posts(df_db, 'text', patterns=patterns, replace_patterns=['’'], min_token_length=2,
+                                  replace_values=['\''], remove_stopwords=True, remove_punctuation=True)
+        df_db = result['text']
+
+    db.close()
+    df_db['dataset'] = 'AZ Secure'
     return df_db
 
 
 def load_tweet_fact(tweet_db: pd.DataFrame, extract_columns: List) -> pd.DataFrame:
     tweet_fact_df = tweet_db.loc[:, extract_columns]
     tweet_fact_df.rename(columns={'id_str': 'id'}, inplace=True)
-    tweet_fact_df.set_index('id', inplace=True)
     return tweet_fact_df
 
 
@@ -791,6 +823,49 @@ def load_tweet_place_dimension(tweet_fact_df: pd.DataFrame) -> Tuple:
     return point_dimension_df, bounding_box_dimension_df, place_dimension_df
 
 
+def load_label_dimension(docs_df, tweet_fact_df, extract_columns: List = [], database: str = 'cyberthreat'):
+    label_dimension_df = docs_df.loc[:, extract_columns]
+    if database == 'cyberthreat':
+        label_dimension_df.replace({
+            'business': 'no-threat',
+            'irrelevant': 'no-threat',
+            'threat': 'hack',
+            'unknown': 'dont-know'
+        }, inplace=True)
+        label_dimension_df.rename(columns={'annotation': 'label', 'id': 'tweet_id'}, inplace=True)
+
+    elif database == 'cyberbullying':
+        cyberbullying = label_dimension_df['Cyberbullying']
+        insult = label_dimension_df['Insult']
+        profanity = label_dimension_df['Profanity']
+        sarcasm = label_dimension_df['Sarcasm']
+        exclusion = label_dimension_df['Exclusion']
+        spam = label_dimension_df['Spam']
+        pornography = label_dimension_df['Pornography']
+        threat = label_dimension_df['Threat']
+
+        label_dimension_df['label'] = ['dont-know'] * label_dimension_df.shape[0]
+        # label = label_dimension_df['label']
+        label_dimension_df.loc[(cyberbullying == 1) | (insult == 1) | (profanity == 1) | (sarcasm == 1) |
+                               (exclusion == 1) | (threat == 1), 'label'] = 'cyberbullying'
+        label_dimension_df.loc[(pornography == 1), 'label'] = 'pornography'
+        label_dimension_df.loc[(spam == 1), 'label'] = 'spam'
+
+        extract_columns.remove('id')
+        label_dimension_df.drop(columns=extract_columns, inplace=True)
+        label_dimension_df.rename(columns={'id': 'tweet_id'}, inplace=True)
+
+    label_dimension_df.index.name = 'id'
+
+    label_dimension_df.reset_index(inplace=True)
+    label_dimension_df.rename(columns={'id': 'label_id'}, inplace=True)
+
+    tweet_fact_df = tweet_fact_df.merge(label_dimension_df, how='left', left_on='id', right_on='tweet_id')
+    tweet_fact_df.drop(columns=['tweet_id'], inplace=True)
+
+    return label_dimension_df, tweet_fact_df
+
+
 def cyberthreat_database():
     host, password, port, user_dimension_df = load_db_credentials(file_credentials='credentials.yaml',
                                                      credential_key='mongodb_cyberthreat_credentials')
@@ -821,11 +896,16 @@ def cyberthreat_database():
     ]
 
     tweet_fact_df = load_tweet_fact(tweet_db, extract_columns)
-    # tweet_stats_dimension = load_tweet_stats_dimension(tweet_fact_df)
-    coordinates_dimension_df, point_dimension_df = load_coordinates_dimension(tweet_fact_df)
-    load_tweet_place_dimension(tweet_fact_df)
-    # user_dimension_df, user_stats_dimension_df = load_user_dimension(tweet_fact_df)
     tweet_fact_df.reset_index(inplace=True)
+
+    label_dimension_df, tweet_fact_df = load_label_dimension(docs_df, tweet_fact_df, ['annotation', 'id'])
+    # tweet_stats_dimension = load_tweet_stats_dimension(tweet_fact_df)
+    # coordinates_dimension_df, point_dimension_df = load_coordinates_dimension(tweet_fact_df)
+    # load_tweet_place_dimension(tweet_fact_df)
+    # user_dimension_df, user_stats_dimension_df = load_user_dimension(tweet_fact_df)
+
+    cyberthreat_conn.close()
+    tweet_fact_df['dataset'] = 'Cyberthreat'
     return tweet_fact_df
 
 
@@ -843,7 +923,13 @@ def cyberbulling_database():
     ]
 
     tweet_fact_df = load_tweet_fact(tweet_db, extract_columns)
-    tweet_fact_df.reset_index(inplace=True)
+    docs_df['id'] = tweet_fact_df.loc[:, 'id']
+
+    extract_columns = ['Cyberbullying', 'Exclusion', 'Insult', 'Pornography', 'Profanity', 'Sarcasm', 'Spam', 'Threat', 'id']
+    label_dimension_df, tweet_fact_df = load_label_dimension(docs_df, tweet_fact_df,
+                                                             extract_columns, 'cyberbullying')
+    # tweet_fact_df.reset_index(inplace=True)
+    tweet_fact_df['dataset'] = 'Cyberbullying'
     return tweet_fact_df
 
 
@@ -855,15 +941,17 @@ if __name__ == '__main__':
 
     # conn = preload_dw()
     az_secure_db = az_secure_database()
+    word_frequency(az_secure_db, 'text')
     cyberthreat_db = cyberthreat_database()
-    cyberbulling_db = cyberbulling_database()
+    cyberbullying_db = cyberbulling_database()
 
-    combined_db = az_secure_db.merge(cyberthreat_db, how='outer')
-    combined_db = pd.concat([combined_db, cyberbulling_db], ignore_index=True)
-    corpus = combined_db.loc[:, ['text']]
-    patterns = ['((?:(?<=[^a-zA-Z0-9\'’])|(?<=^)|(?<=y)|(?<=you))(t+[hanksxz]{4,}|x+|t+)( *[y]+[ou]*)*)+(?=\\W+|$)']
-    result = preprocess_posts(corpus, 'text', patterns=patterns, replace_patterns=['’'],
-                                           replace_values=['\''], remove_stopwords=True, remove_punctuation=False)
-    doc = " ".join(result['text'])
+    combined_db = pd.concat([az_secure_db, cyberthreat_db, cyberbullying_db], ignore_index=True)
+    corpus = combined_db.loc[:, ['text', 'label', 'dataset']]
+    result = preprocess_posts(corpus, 'text', replace_patterns=['’'], min_token_length=2, replace_values=['\''],
+                              remove_stopwords=True, remove_punctuation=True)
+    doc = ""
+    for k, v in result['vocab_stats'].most_common(512):
+        words = " ".join([k] * v)
+        doc = doc + " " + words
     plot_wordcloud(doc, max_words=50, use_stopwords_pack=True)
     pass
